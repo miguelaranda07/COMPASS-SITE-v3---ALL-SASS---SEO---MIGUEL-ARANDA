@@ -1,0 +1,326 @@
+  /*VARIABLES*/
+
+$primary-color: #eee;
+$secundary-color: #B4BCC0;
+$three-color: #5e47a3;
+$four-color: #313437;
+$five-color: #ffffff;
+$six-color: #7d8285;
+$seven-color: #eff1f4;
+$eight-color: black;
+
+  /*FIN VARIABLES*/
+
+body {
+    background-color: $primary-color;
+  }
+  
+  /*NAVBAR*/
+  
+  .git-log {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  /*FIN NAVBAR*/
+  
+  /*FOOTER*/
+  
+  .footer {
+    margin-top: 3%;
+  }
+  
+  .instlogo, .facelogo, .youlogo, .twtlogo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /*FIN FOOTER*/
+  
+  /*ERROR 404*/
+  
+  .mainbox {
+    background-color: $primary-color;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+  }
+  
+  .err {
+    color: $secundary-color;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+  }
+  
+  .far {
+    position: absolute;
+    font-size: 8.5rem;
+    left: 42%;
+    top: 15%;
+    color: $secundary-color;
+  }
+  
+  .err2 {
+    color: $secundary-color;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position: absolute;
+    left: 68%;
+    top: 8%;
+  }
+  
+  .msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $three-color;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  /*FIN ERROR 404*/
+  
+  /*NEWSLETTER*/
+  
+  .newsletter-subscribe {
+    color: $four-color;
+    background-color: $five-color;
+    padding: 55px 74px;
+    margin-bottom: 50px;
+  
+    p {
+      color: $six-color;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      line-height: 1.5;
+      padding-top: 0;
+      margin-top: 0;
+      color: inherit;
+    }
+  
+    .intro {
+      font-size: 16px;
+      max-width: 500px;
+      margin: 0 auto 25px;
+  
+      p {
+        margin-bottom: 35px;
+      }
+    }
+  
+    form {
+      .form-control {
+        background: $seven-color;
+        border: none;
+        border-radius: 3px;
+        box-shadow: none;
+        outline: none;
+        color: inherit;
+        text-indent: 9px;
+        height: 45px;
+        margin-right: 10px;
+        min-width: 250px;
+      }
+  
+      .btn {
+        padding: 16px 32px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        text-shadow: none;
+        opacity: 0.9;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 1;
+  
+        &:hover {
+          opacity: 1;
+        }
+  
+        &:active {
+          transform: translateY(1px);
+        }
+      }
+  
+      .btn-primary {
+        background-color: $eight-color;
+        color: $five-color;
+        outline: none !important;
+      }
+    }
+  }
+  
+  .form-inline {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .acept {
+    margin-top: 2%;
+  }
+  
+  /*FIN NEWSLETTER*/
+  
+  /*FORMULARIO DE CONTACTO*/
+  
+  .cont {
+    color: $six-color;
+    background-color: $five-color;
+    padding: 55px 74px;
+    margin-bottom: 50px;
+  }
+  
+  /*BANNER*/
+  
+  .contb1 {
+    background-image: url(assets/img/contbanner.jpg);
+    background-size: cover;
+    color: $eight-color;
+    font-variant: small-caps;
+  }
+  
+  .contb2 {
+    background-image: url(assets/img/contbanner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 275px;
+  }
+  
+  /*FIN BANNER*/
+  
+  /*NOMBRE Y EMAIL*/
+  
+  .onep {
+    margin-top: 0px;
+  }
+  
+  .onel {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .twol {
+    display: flex;
+  }
+  
+  .fc1 {
+    margin-left: 40px;
+  }
+  
+  .fc2 {
+    margin-left: 61px;
+  
+    /*21px mas que fc1*/
+  }
+  
+  /*FIN NOMBRE Y EMAIL*/
+  
+  /*RATIOS*/
+  
+  .oner, .twor {
+    display: flex;
+  }
+  
+  .twop {
+    margin-top: 3px;
+    margin-left: 50px;
+  }
+  
+  /*FIN RATIOS*/
+  
+  /*CHECKS Y BOTON*/
+  
+  .aceptc {
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+  
+  .env {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  
+  .cont div {
+    .btn {
+      padding: 16px 32px;
+      border: none;
+      background: none;
+      box-shadow: none;
+      text-shadow: none;
+      opacity: 0.9;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 0.4px;
+      line-height: 1;
+  
+      &:hover {
+        opacity: 1;
+      }
+  
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+  
+    .btn-primary {
+      background-color: $eight-color;
+      color: $five-color;
+      outline: none !important;
+    }
+  }
+  
+  /*FIN CHECKS Y BOTON*/
+  /*FIN FORMULARIO DE CONTACTO*/
+  
+  /*RESPONSIVE*/
+  @media only screen and (max-device-width: 320px) {
+    /*NEXSLLETTER INDEX*/
+  
+    .newsletter-subscribe div {
+      .newsletter {
+        font-size: 22px;
+      }
+  
+      .txt {
+        display: none;
+      }
+    }
+  
+    /* FIN NEXSLLETTER INDEX*/
+  
+    /*CONTACTO*/
+  
+    .jumbotron div .display-4 {
+      font-size: 40px;
+    }
+  
+    .twop {
+      margin-left: 0%;
+    }
+  
+    /*FIN CONTACTO*/
+  }
+  
+  /*FIN RESPONSIVE*/
