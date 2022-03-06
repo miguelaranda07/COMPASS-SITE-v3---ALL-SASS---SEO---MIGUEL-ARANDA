@@ -1,0 +1,31 @@
+{
+  "name": "compass-site-v3---all-sass---seo---miguel-aranda",
+  "version": "3.0.0",
+  "description": "Sitio desarrollado con divesidad de objetos, orientado a una empresa de correo y mensajeria mundial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss estilo.scss estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelaranda07/COMPASS-SITE-v3---ALL-SASS---SEO---MIGUEL-ARANDA.git"
+  },
+  "keywords": [
+    "envios",
+    "correo",
+    "exportar",
+    "paquetes",
+    "mensajeria"
+  ],
+  "author": "MA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelaranda07/COMPASS-SITE-v3---ALL-SASS---SEO---MIGUEL-ARANDA/issues"
+  },
+  "homepage": "https://github.com/miguelaranda07/COMPASS-SITE-v3---ALL-SASS---SEO---MIGUEL-ARANDA#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

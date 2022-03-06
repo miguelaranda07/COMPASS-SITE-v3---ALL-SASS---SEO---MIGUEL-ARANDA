@@ -1,0 +1,475 @@
+/*VARIABLES*/
+
+$primary-color: #eee;
+$secundary-color: #B4BCC0;
+$three-color: #5e47a3;
+$four-color: #313437;
+$five-color: #ffffff;
+$six-color: #7d8285;
+$seven-color: #eff1f4;
+$eight-color: black;
+/*FIN VARIABLES*/
+
+body {
+    background-color: $primary-color;
+  }
+
+/*NAVBAR*/
+
+  .git-log {
+  display: flex;
+  margin-left: auto;
+  }
+/*FIN NAVBAR*/
+  
+/*FOOTER*/
+
+  .footer {
+    margin-top: 3%;
+  }
+  
+  .instlogo, .facelogo, .youlogo, .twtlogo {
+    width: 50px;
+    height: 50px;
+  }
+  
+/*FIN FOOTER*/
+  
+/*NEWSLETTER*/
+  
+  .newsletter-subscribe {
+    color: $four-color;
+    background-color: $five-color;
+    padding: 55px 74px;
+    margin-bottom: 50px;
+  
+    p {
+      color: $six-color;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      line-height: 1.5;
+      padding-top: 0;
+      margin-top: 0;
+      color: inherit;
+    }
+  
+    .intro {
+      font-size: 16px;
+      max-width: 500px;
+      margin: 0 auto 25px;
+  
+      p {
+        margin-bottom: 35px;
+      }
+    }
+  
+    form {
+      .form-control {
+        background: $seven-color;
+        border: none;
+        border-radius: 3px;
+        box-shadow: none;
+        outline: none;
+        color: inherit;
+        text-indent: 9px;
+        height: 45px;
+        margin-right: 10px;
+        min-width: 250px;
+      }
+  
+      .btn {
+        padding: 16px 32px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        text-shadow: none;
+        opacity: 0.9;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 1;
+  
+        &:hover {
+          opacity: 1;
+        }
+  
+        &:active {
+          transform: translateY(1px);
+        }
+      }
+  
+      .btn-primary {
+        background-color: $eight-color;
+        color: $five-color;
+        outline: none !important;
+      }
+    }
+  }
+  
+  .form-inline {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .acept {
+    margin-top: 2%;
+  }
+/*FIN NEWSLETTER*/
+  
+/*FORMULARIO DE CONTACTO*/
+  .cont1{
+    text-shadow:1px 1px 1px $eight-color;
+    background-color: $seven-color;
+    opacity: 0.8;
+  }
+  .cont2{
+    background-color: $seven-color;
+    opacity: 0.8;
+    margin-top: 10px;
+    line-height:34px;
+  }
+  
+  .cont {
+    color: $six-color;
+    background-color: $five-color;
+    padding: 55px 74px;
+    margin-bottom: 50px;
+
+  }
+  
+/*BANNER*/
+  
+  .contb1 {
+    background-image: url(../assets/img/contbanner.jpg);
+    background-size: cover;
+    color: $eight-color;
+    font-variant: small-caps;
+  }
+  
+  .contb2 {
+    background-image: url(../assets/img/contbanner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 275px;
+  }
+/*FIN BANNER*/
+  
+/*NOMBRE Y EMAIL*/
+  .onep {
+    margin-top: 0px;
+  }
+  
+  .onel {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .twol {
+    display: flex;
+  }
+  
+  .fc1 {
+    margin-left: 40px;
+  }
+  
+  .fc2 {
+    margin-left: 61px;
+  
+    /*21px mas que fc1*/
+  }
+/*FIN NOMBRE Y EMAIL*/
+  
+/*RATIOS*/
+  .oner, .twor {
+    display: flex;
+  }
+  
+  .twop {
+    margin-top: 3px;
+    margin-left: 50px;
+  }
+/*FIN RATIOS*/
+  
+/*CHECKS Y BOTON*/
+  .aceptc {
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+  
+  .env {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  
+  .cont div {
+    .btn {
+      padding: 16px 32px;
+      border: none;
+      background: none;
+      box-shadow: none;
+      text-shadow: none;
+      opacity: 0.9;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 0.4px;
+      line-height: 1;
+  
+      &:hover {
+        opacity: 1;
+      }
+  
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+  
+    .btn-primary {
+      background-color: $eight-color;
+      color: $five-color;
+      outline: none !important;
+    }
+  }
+  
+/*FIN CHECKS Y BOTON*/
+/*FIN FORMULARIO DE CONTACTO*/
+  
+/*NOSOTROS*/
+/*BANNER*/
+ 
+  .nosb1 {
+  background-image: url(../assets/img/nosbanner.jpg);
+  background-size: cover;
+  color: $seven-color;
+  font-variant: small-caps;
+  }
+
+  .nosb2 {
+  background-image: url(../assets/img/nosbanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+  }
+/*FIN BANNER*/
+
+/*CONTENIDO - TXT*/
+
+  .nosc {
+  margin-top: 0px;
+  }
+
+  .c1 {
+  display: flex;
+  margin-bottom: 0px;
+  font-size: 19px;
+  text-align: center;
+  line-height : 50px;
+  }
+  .nos{
+    text-shadow:5px 5px 5px $eight-color;
+    background-color: $four-color;
+    opacity: 0.8;
+  }
+  .nos2{
+    text-shadow:5px 5px 5px $eight-color;
+    background-color: $four-color;
+    opacity: 0.8;
+    margin-top: 10px;
+    line-height:34px;
+  }
+/*BOTONES COMPARTIR*/
+/*MAPS*/
+
+$redes: (
+  1: #55acee,
+  2: #3a5795,
+  3: #C25E30
+  ); 
+  
+  @each $red, $color in $redes {
+  .btn-#{$red} {
+  background-color: $color;
+  }
+/*MAP-GET*/
+  $espacios: (
+  top: 15px,
+  bottom: 50px,
+  );
+
+  .combtn {
+  margin-top: map-get($espacios, top);
+  margin-bottom: map-get($espacios, bottom);
+  }
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*FIN BOTONES COMPARTIR*/
+
+ 
+/*FIN CONTENIDO - TXT*/
+
+/*FIN NOSOTROS*/
+
+/*COMO TRABAJAMOS*/
+  .trab1 {
+    background-image: url(../assets/img/trabanner.jpg);
+    background-size: cover;
+    color: $seven-color;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+    }
+    .tra{
+      text-shadow:5px 5px 5px $eight-color;
+      background-color: $four-color;
+      opacity: 0.8;
+    }
+    .tra2{
+      text-shadow:5px 5px 5px $eight-color;
+      background-color: $four-color;
+      opacity: 0.8;
+      margin-top: 15px;
+      line-height:34px;
+    }
+
+  .trab2 {
+    background-image: url(../assets/img/trabanner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 275px;
+    }
+    
+    $fondos: (
+      1: #f4f4f4,
+      2: #cccccc,
+      3: #fff5ee, 
+      ); 
+      
+      @each $fond, $color in $fondos {
+      .fond#{$fond} {
+      background-color: $color;
+      }
+    }
+
+  .fond2{
+    text-align: center;
+  }
+  .fond3{
+    text-align: end;
+  }
+/*FIN COMO TRABAJAMOS*/
+
+
+/*RESPONSIVE*/
+  @media only screen and (max-device-width: 320px) {
+/*NEXSLLETTER INDEX*/
+  
+    .newsletter-subscribe div {
+      .newsletter {
+        font-size: 22px;
+      }
+  
+      .txt {
+        display: none;
+      }
+    }
+/* FIN NEXSLLETTER INDEX*/
+  
+/*CONTACTO*/
+ 
+    .jumbotron div .display-4 {
+      font-size: 40px;
+    }
+  
+    .twop {
+      margin-left: 0%;
+    }
+  }
+}
+/*FIN CONTACTO*/
+  
+/*FIN RESPONSIVE*/
+
+/*LOGIN*/
+
+.log1 {
+  background-image: url(../assets/img/logbanner.jpg);
+  background-size: cover;
+  color: $seven-color;
+  font-variant: small-caps;
+  }
+
+  .log2 {
+  background-image: url(../assets/img/logbanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+  }
+  .lo1{
+    text-shadow:5px 5px 5px $eight-color;
+    background-color: $four-color;
+    opacity: 0.8;
+  }
+  .lo2{
+    text-shadow:5px 5px 5px $eight-color;
+    background-color: $four-color;
+    opacity: 0.8;
+    margin-top: 10px;
+    line-height:34px;
+  }
+.txta{
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+  }
+/*FIN LOGIN*/ 
+
+/*INICIO BASE EXTEND A UTILIZAR
+.boton {
+  background-color:white;
+  text-align:center;
+  color:black;
+  border-radius:20px;
+  border:1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boton--aceptar{
+  @extend .boton;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+.boton--cancelar{
+  @extend .boton;
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  margin-left: 10px;
+}
+}
+/*FIN BASE EXTEND A UTILIZAR*/
+
+/*INICIO BASE MIXIN A UTILIZAR
+@mixin sizes($ancho, $alto) {
+  height: $alto;
+  width: $ancho;
+}
+.boton {
+  @include sizes(125px, 50px);
+}
+.btn-1{
+  @include sizes(120px, 50px); /*BAJA DE ESCALA
+}
+.btn-2{
+  @include sizes(115px, 45px);
+}
+.btn-3{
+  @include sizes(125px, 40px); /*FIN BAJA DE ESCALA*/
+
+/*FIN BASE MIXIN A UTILIZAR*/
