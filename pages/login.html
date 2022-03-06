@@ -1,19 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta name="description" content="Compass es la empresa de correo más revolucionaria del último tiempo. Nuestra capacidad de resolución y personalización, nos agrega un valor sin precedentes.">
+	<meta name="keywords" content="envios internacionales, envios flex, envios a domicilio, envios al interior">
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../estilo.css"/>
-	<title>LOGIN</title>
+	<title>LOGIN CS</title>
 </head>
 <body>
-		<div class="mainbox">
-		  <div class="err">4</div>
-		  <i class="far fa-question-circle fa-spin"></i>
-		  <div class="err2">4</div>
-		  <div class="msg">Esta página se encuentra en desarrollo.<p>Vuelve al <a href="../index.html">inicio</a> y prueba mas tarde.</p></div>
+
+<!-- LOGO + NAV + LOGIN --> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand">
+		  <img src="../assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+		  Compass Site
+		</a>
+	  </nav>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	  <div class="navbar-nav">
+		<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+		<a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+		<a class="nav-link" href="../pages/trabajo.html">¿Como trabajamos?</a>
+		<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+		<a class="nav-link active" href="../pages/login.html">Login</a>
+	  </div>
+	  <a class="git-log" href="https://github.com/miguelaranda07">
+	  <img src="../assets/img/GitHubl.svg" width="30" height="30" alt="Git">
+	  </a>
+	  </div>
+	  </nav>
+<!-- FIN LOGO + NAV + LOGIN -->
+
+<!-- BANNER 1-->
+<div class="jumbotron jumbotron-fluid log1">
+	<div class="container">
+	  <span class="display-4 lo1">LOGIN</span> </br>
+	  <span class="lead lo2">INGRESE SUS DATOS DE SESION.</span>
+	</div>
+  </div>
+<!-- FIN BANNER 1-->
+
+<!-- FORM. LOGIN -->
+<form class="cont mt-5 container">
+	<div class="form-inline"> 
+		<div class="onep">
+			<div class="lonel">
+	  		<label for="form-group1">USUARIO</label>
+			<input type="text" class="form-control lfc1" id="oneFormControlInput1" placeholder="---" required>
 			</div>
-<script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+
+			<div class="ltwol">
+	  		<label for="form-group2">CONTRASEÑA</label>
+	 		<input type="password" class="form-control lfc2" id="twoFormControlInput1" placeholder="***" required>
+			</div>
+		</div>
+	</div>
+
+	<div class="chks">
+		<p class="text-center aceptc"> MANTENER INICIADA LA SESION
+			<input type="checkbox" name="acepta" value="1"></p>
+			
+	</div>
+	<a class="row justify-content-center txta" href="#">¿OLVIDO SU  CONTRASEÑA?</a>
+
+	<div class="row justify-content-center env">
+
+			<input class="btn btn-primary" type="submit" value="INGRESAR">
+			
+	</div>
+
+</form>
+<!-- FIN FORM. LOGIN -->
+
+<!-- BANNER 2-->
+<div class="jumbotron jumbotron-fluid log2">
+	<div class="container">
+	</div>
+  </div>
+<!-- FIN BANNER 2-->
+	
+<!-- INICIO FOOTER -->
+<footer class="page-footer font-small special-color-dark pt-4 bg-light">
+
+	<!-- ELEMENTOS FOOTER -->
+	<div class="container">
+  
+	  <!-- SOCIAL LOGOS -->
+	  <ul class="list-unstyled list-inline text-center">
+		<li class="list-inline-item">
+		  <a class="btn-floating btn-fb mx-1">
+			<img class= "instlogo" src="../assets/img/inst.svg" alt="INSTAGRAM"> </img>
+		  </a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn-floating btn-tw mx-1">
+			<img class="facelogo" src="../assets/img/face.svg" alt="FACEBOOK">
+		  </a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn-floating btn-gplus mx-1">
+			<img class="youlogo" src="../assets/img/you.svg" alt="YOUTUBE">
+		  </a>
+		</li>
+		<li class="list-inline-item">
+		  <a class="btn-floating btn-li mx-1">
+			<img class="twtlogo" src="../assets/img/twit.svg" alt="TWITTER">
+		  </a>
+		</li>
+	  </ul>
+	  <!-- FIN SOCIAL LOGOS -->
+  	</div>
+	<!-- FIN ELEMENTOS FOOTER -->
+  
+	<!-- COPYRIGHT -->
+	<div class="footer-copyright text-center py-3">© 2022 Copyright: MA</a>
+	</div>
+	<!-- FIN COPYRIGHT -->
+  
+  </footer>
+  <!-- FIN FOOTER --> 
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>

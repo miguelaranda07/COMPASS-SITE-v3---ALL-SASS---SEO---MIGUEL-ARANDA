@@ -22,60 +22,6 @@ body {
 }
 
 /*FIN FOOTER*/
-/*ERROR 404*/
-.mainbox {
-  background-color: #eee;
-  margin: auto;
-  height: 600px;
-  width: 600px;
-  position: relative;
-}
-
-.err {
-  color: #B4BCC0;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 11rem;
-  position: absolute;
-  left: 20%;
-  top: 8%;
-}
-
-.far {
-  position: absolute;
-  font-size: 8.5rem;
-  left: 42%;
-  top: 15%;
-  color: #B4BCC0;
-}
-
-.err2 {
-  color: #B4BCC0;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 11rem;
-  position: absolute;
-  left: 68%;
-  top: 8%;
-}
-
-.msg {
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.6rem;
-  position: absolute;
-  left: 16%;
-  top: 45%;
-  width: 75%;
-}
-
-a {
-  text-decoration: none;
-  color: #5e47a3;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-/*FIN ERROR 404*/
 /*NEWSLETTER*/
 .newsletter-subscribe {
   color: #313437;
@@ -152,6 +98,19 @@ a:hover {
 
 /*FIN NEWSLETTER*/
 /*FORMULARIO DE CONTACTO*/
+.cont1 {
+  text-shadow: 1px 1px 1px black;
+  background-color: #eff1f4;
+  opacity: 0.8;
+}
+
+.cont2 {
+  background-color: #eff1f4;
+  opacity: 0.8;
+  margin-top: 10px;
+  line-height: 34px;
+}
+
 .cont {
   color: #7d8285;
   background-color: #ffffff;
@@ -248,6 +207,118 @@ a:hover {
 
 /*FIN CHECKS Y BOTON*/
 /*FIN FORMULARIO DE CONTACTO*/
+/*NOSOTROS*/
+/*BANNER*/
+.nosb1 {
+  background-image: url(assets/img/nosbanner.jpg);
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps;
+}
+
+.nosb2 {
+  background-image: url(assets/img/nosbanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+}
+
+/*FIN BANNER*/
+/*CONTENIDO - TXT*/
+.nosc {
+  margin-top: 0px;
+}
+
+.c1 {
+  display: flex;
+  margin-bottom: 0px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.nos {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+}
+
+.nos2 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+  margin-top: 10px;
+  line-height: 34px;
+}
+
+/*BOTONES COMPARTIR*/
+/*MAPS*/
+.btn-1 {
+  background-color: #55acee;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*FIN BOTONES COMPARTIR*/
+/*FIN CONTENIDO - TXT*/
+/*FIN NOSOTROS*/
+/*COMO TRABAJAMOS*/
+.trab1 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps;
+  margin-bottom: 0px;
+}
+
+.tra {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+}
+
+.tra2 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+  margin-top: 15px;
+  line-height: 34px;
+}
+
+.trab2 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+}
+
+.fond1 {
+  background-color: #f4f4f4;
+}
+
+.fond2 {
+  background-color: #cccccc;
+}
+
+.fond3 {
+  background-color: #fff5ee;
+}
+
+.fond2 {
+  text-align: center;
+}
+
+.fond3 {
+  text-align: end;
+}
+
+/*FIN COMO TRABAJAMOS*/
 /*RESPONSIVE*/
 @media only screen and (max-device-width: 320px) {
   /*NEXSLLETTER INDEX*/
@@ -267,9 +338,259 @@ a:hover {
   .twop {
     margin-left: 0%;
   }
-
-  /*FIN CONTACTO*/
 }
+.btn-2 {
+  background-color: #3a5795;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*FIN BOTONES COMPARTIR*/
+/*FIN CONTENIDO - TXT*/
+/*FIN NOSOTROS*/
+/*COMO TRABAJAMOS*/
+.trab1 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps;
+  margin-bottom: 0px;
+}
+
+.tra {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+}
+
+.tra2 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+  margin-top: 15px;
+  line-height: 34px;
+}
+
+.trab2 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+}
+
+.fond1 {
+  background-color: #f4f4f4;
+}
+
+.fond2 {
+  background-color: #cccccc;
+}
+
+.fond3 {
+  background-color: #fff5ee;
+}
+
+.fond2 {
+  text-align: center;
+}
+
+.fond3 {
+  text-align: end;
+}
+
+/*FIN COMO TRABAJAMOS*/
+/*RESPONSIVE*/
+@media only screen and (max-device-width: 320px) {
+  /*NEXSLLETTER INDEX*/
+  .newsletter-subscribe div .newsletter {
+    font-size: 22px;
+  }
+  .newsletter-subscribe div .txt {
+    display: none;
+  }
+
+  /* FIN NEXSLLETTER INDEX*/
+  /*CONTACTO*/
+  .jumbotron div .display-4 {
+    font-size: 40px;
+  }
+
+  .twop {
+    margin-left: 0%;
+  }
+}
+.btn-3 {
+  background-color: #C25E30;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*FIN BOTONES COMPARTIR*/
+/*FIN CONTENIDO - TXT*/
+/*FIN NOSOTROS*/
+/*COMO TRABAJAMOS*/
+.trab1 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps;
+  margin-bottom: 0px;
+}
+
+.tra {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+}
+
+.tra2 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+  margin-top: 15px;
+  line-height: 34px;
+}
+
+.trab2 {
+  background-image: url(assets/img/trabanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+}
+
+.fond1 {
+  background-color: #f4f4f4;
+}
+
+.fond2 {
+  background-color: #cccccc;
+}
+
+.fond3 {
+  background-color: #fff5ee;
+}
+
+.fond2 {
+  text-align: center;
+}
+
+.fond3 {
+  text-align: end;
+}
+
+/*FIN COMO TRABAJAMOS*/
+/*RESPONSIVE*/
+@media only screen and (max-device-width: 320px) {
+  /*NEXSLLETTER INDEX*/
+  .newsletter-subscribe div .newsletter {
+    font-size: 22px;
+  }
+  .newsletter-subscribe div .txt {
+    display: none;
+  }
+
+  /* FIN NEXSLLETTER INDEX*/
+  /*CONTACTO*/
+  .jumbotron div .display-4 {
+    font-size: 40px;
+  }
+
+  .twop {
+    margin-left: 0%;
+  }
+}
+/*FIN CONTACTO*/
 /*FIN RESPONSIVE*/
+/*LOGIN*/
+.log1 {
+  background-image: url(assets/img/logbanner.jpg);
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps;
+}
+
+.log2 {
+  background-image: url(assets/img/logbanner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 275px;
+}
+
+.lo1 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+}
+
+.lo2 {
+  text-shadow: 5px 5px 5px black;
+  background-color: #313437;
+  opacity: 0.8;
+  margin-top: 10px;
+  line-height: 34px;
+}
+
+.txta {
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+}
+
+/*FIN LOGIN*/
+/*INICIO BASE EXTEND A UTILIZAR
+.boton {
+  background-color:white;
+  text-align:center;
+  color:black;
+  border-radius:20px;
+  border:1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boton--aceptar{
+  @extend .boton;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+.boton--cancelar{
+  @extend .boton;
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  margin-left: 10px;
+}
+}
+/*FIN BASE EXTEND A UTILIZAR*/
+/*INICIO BASE MIXIN A UTILIZAR
+@mixin sizes($ancho, $alto) {
+  height: $alto;
+  width: $ancho;
+}
+.boton {
+  @include sizes(125px, 50px);
+}
+.btn-1{
+  @include sizes(120px, 50px); /*BAJA DE ESCALA
+}
+.btn-2{
+  @include sizes(115px, 45px);
+}
+.btn-3{
+  @include sizes(125px, 40px); /*FIN BAJA DE ESCALA*/
+/*FIN BASE MIXIN A UTILIZAR*/
 
 /*# sourceMappingURL=estilo.css.map */
